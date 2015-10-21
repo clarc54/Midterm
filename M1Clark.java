@@ -98,6 +98,7 @@ void table( float east, float north, float west, float south ) {
             //++++ MODIFY THIS CODE, as necessary. ++++
 
   // Start with a WALL down the middle of the table! 
+
   if (wall) {
     float middle=  (east+west)/2;    
     stroke( 0, 127, 0 );
@@ -106,6 +107,7 @@ void table( float east, float north, float west, float south ) {
   stroke(0);
   strokeWeight(1);
 }
+
 
 //// ACTION:  bounce off walls, collisions
 void bounce() {
